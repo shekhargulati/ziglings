@@ -36,6 +36,7 @@ const Character = struct {
     class: Class,
     gold: u32,
     experience: u32,
+    health: i32 = 0
 };
 
 pub fn main() void {
